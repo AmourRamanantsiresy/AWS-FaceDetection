@@ -1,0 +1,29 @@
+@media (min-width: 1000px) {
+    :root{
+        --width-basis: 30%;
+    }
+}
+
+@media (max-width: 1000px) {
+    :root{
+        --width-basis: 48%;
+    }
+}
+
+@media (max-width: 800px) {
+    :root{
+        --width-basis: 98%;
+    }
+}
+.items-width{
+    flex-basis: var(--width-basis);
+}
+
+.neutral{
+    transition:all 1s;
+}
+
+.neutral:hover{
+    background: linear-gradient(to right, rgba(25, 118, 210, 0.3), rgba(255,255,255,0.2));
+    color: white;
+}

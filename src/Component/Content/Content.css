@@ -1,0 +1,87 @@
+.content{
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.2));
+    height: 95vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 15px 0 0 15px;
+}
+
+.content::-webkit-scrollbar{
+    width: 1px;
+    background: rgba(255,255,255, 0.3);
+}
+
+.content::-webkit-scrollbar-thumb{
+    width: 2px;
+    background: black;
+    height: 10px;
+}
+
+@media (max-width: 550px) {
+    .content{
+        width: 94vw;
+        margin: 3vw !important;
+    }
+    body{
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+.dataShower{
+    background: rgba(255,255,255,0.3);
+    flex-basis: 30%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.sideRightRounded{
+    border-radius: 5px 10px 10px 5px;
+    transition: all 1s;
+}
+
+.sideGreen{
+    border-left: 5px solid rgba(34, 139, 34, 0.5) !important;
+}
+
+.sideGreen:hover{
+    background: linear-gradient(to right, rgba(34, 139, 34, 0.2), rgba(255,255,255,0.2));
+    color: white !important;
+}
+
+.sideRed:hover{
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(255,255,255,0.2));
+    color: white !important;
+}
+
+.sideRed{
+    border-left: 5px solid rgba(255, 0, 0, 0.5) !important;
+}
+
+.margin-0{
+    margin: 0 !important;
+}
+
+.padding-0{
+    padding: 0 !important;
+}
+
+.dataShower *{
+    font-size: 15px !important;
+}
+
+.margin-vertical{
+    margin-left: 0.5rem;
+}
+
+.message-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

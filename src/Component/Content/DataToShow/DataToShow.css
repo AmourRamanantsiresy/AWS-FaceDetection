@@ -1,0 +1,11 @@
+.landmarks-table{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.landmarks-table-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
